@@ -1,3 +1,6 @@
+import os
+os.environ["PORT"] = os.environ.get("PORT", "8501")
+
 import streamlit as st
 import re
 
